@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Kişisel Blog</title>
+    <link rel="stylesheet" href="style11.css">
+</head>
+<body>
+
+<!-- Sabit Menü -->
+<header>
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="blog.html">Blog Yazıları</a>
+        <a href="about.html">Hakkımda</a>
+        <a href="categories.html">Kategoriler</a>
+        <a href="contact.html">İletişim</a>
+    </nav>
+</header>
+
+<!-- İletişim Formu -->
+<section>
+    <h2>İletişim</h2>
+
+    <!-- Bildirim Mesajı -->
+    <div id="notification" class="hidden">
+        <p>Mesajınız başarıyla gönderildi!</p>
+    </div>
+
+    <form id="contact-form" action="#" method="post">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-posta Adresiniz:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Gönder</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
+
+
+<!-- Alt Kısım -->
+<footer>
+    <p>&copy; 2024 Kişisel Blog - Tüm Hakları Saklıdır</p>
+</footer>
+
+</body>
+</html>
